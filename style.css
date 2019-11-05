@@ -1,0 +1,113 @@
+/*Color and fonts*/
+body {
+	background-color: rgb(130, 130, 130);
+	color: rgb(30, 30, 30);
+	font-family: 'Lora', serif;
+}
+/*style.css*/
+h1, h2{
+font-family: 'Lato', sans-serif;
+}
+h1{
+	color: rgb(45, 45, 45);
+    font-size: 37px;
+    font-weight: 700i;
+    letter-spacing: 5px;
+    text-transform: none;
+}
+h2{
+	color: rgb(70, 70, 70);
+	font-size: 40px
+	font-weight: 500;
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #da764d;
+	font-weight: 700;
+	font-size: 16px
+}
+a:hover{
+	color: blue;
+}
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+.card-white{
+	background: white;
+	padding: 40px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	
+	}
+
+.img-circle{
+	border-radius: 25%;
+	box-shadow: 5px 5px 3px black;
+}
+
+.btn-blue{
+	background-color: #da764d;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+	color: black;
+}
+
+
+
+	
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+/* Design adjustments using id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
